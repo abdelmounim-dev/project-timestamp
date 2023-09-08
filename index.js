@@ -40,7 +40,7 @@ app.get("/api/:date", (req, res) => {
 });
 
 app.get("/api/", (req, res) => {
-  res.send(timestamp(new Date(Date.now())));
+  res.send(timestamp(new Date()));
 });
 
 // your first API endpoint...
